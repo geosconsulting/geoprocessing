@@ -1,6 +1,5 @@
 import os
 import gdal
-import gdalnumeric
 
 os.chdir('../dati/osgeopy-data/Modis/')
 src = "MYD13Q1.A2014313.h20v11.005.2014330092746.hdf"
