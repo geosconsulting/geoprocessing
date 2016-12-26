@@ -37,10 +37,10 @@ for feat in lyr:
 
 del ds
 
+from ospybook.vectorplotter import VectorPlotter
+vp = VectorPlotter(True)
+vp.plot(fn, 'bo')
+vp.show('test')
 
-# from ospybook.vectorplotter import VectorPlotter
-# vp = VectorPlotter(True)
-# vp.plot(fn, 'bo')
-# vp.show('test')
 
 
